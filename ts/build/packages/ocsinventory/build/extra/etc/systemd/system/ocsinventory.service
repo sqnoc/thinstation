@@ -1,6 +1,6 @@
 [Unit]
 Description=Thistation ocsinventory
-After=profile-setup.service pkg.service
+After=profile-setup.service net.profile-setup.service pkg.service
 Before=display-manager.service
 ConditionPathIsReadWrite=/etc
 
